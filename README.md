@@ -1,1 +1,1 @@
-# -Google-Data-Analytics-Bellabeats-Capstone
+# Google-Data-Analytics-Bellabeats-Capstone
