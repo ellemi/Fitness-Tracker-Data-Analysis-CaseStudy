@@ -51,7 +51,7 @@ SELECT COUNT (*)
 FROM dailyActivity_merged;
 
 --to check for the number of users
-SELECT COUNT (DISTINCT Id) AS total_users
+SELECT COUNT (DISTINCT Id) AS Total_Users
 FROM dailyActivity_merged;
 
 --to check for duplicates
@@ -60,36 +60,37 @@ FROM dailyActivity_merged
 GROUP BY Id, ActivityDate, TotalSteps
 HAVING COUNT(*) > 1
 
--- to check for rows without user ID
+-- to check for rows without user ID or date
 SELECT COUNT (Id)
 FROM dailyActivity_merged
-WHERE Id IS NULL;
+WHERE ID IS NULL OR ActivityDate IS NULL;
 
 -- to look at number and percentage of active days per user
-SELECT Id, COUNT(ActivityDate) as active_days, 
-ROUND(COUNT(ActivityDate) * 100 / COUNT(COUNT(ActivityDate)) OVER ()) AS percentage
+SELECT Id, COUNT(ActivityDate) as Active_Days, 
+ROUND(COUNT(ActivityDate) * 100 / COUNT(COUNT(ActivityDate)) OVER ()) AS Percentage_Active_days
 FROM dailyActivity_merged
 GROUP BY Id
 ORDER BY active_days DESC;
 
---to calculate total activity minutes per user
+--to calculate total activity minutes vs sedentary minutes per user
 SELECT DISTINCT Id, 
-SUM(VeryActiveMinutes) as mins_very_active,
-SUM(FairlyActiveMinutes) as mins_fairly_active, 
-SUM(LightlyActiveMinutes) as mins_lightly_active,
-SUM(SedentaryMinutes) as mins_sedentary
-FROM `my-project-number-1-367520.bellabeat_analysis.dailyActivity_merged`
+SUM(VeryActiveMinutes) as Mins_Very_Active,
+SUM(FairlyActiveMinutes) as Mins_Fairly_Active, 
+SUM(LightlyActiveMinutes) as Mins_Lightly_Active,
+SUM((VeryActiveMinutes+FairlyActiveMinutes+LightlyActiveMinutes)) as Total_Minutes_Active,
+SUM(SedentaryMinutes) as Mins_Sedentary,
+FROM dailyActivity_merged
 Group by Id;
 
 --to calcualte average activity per user
 SELECT Id,
-ROUND (AVG (VeryActiveMinutes), 0) AS average_mins_very_active,
-ROUND (AVG (FairlyActiveMinutes), 0) AS average_mins_fairly_active, 
-ROUND (AVG (LightlyActiveMinutes), 0) AS average_mins_lightly_active, 
-ROUND (AVG (SedentaryMinutes), 0) AS average_mins_sedentary,
-FROM `my-project-number-1-367520.bellabeat_analysis.dailyActivity_merged`
+ROUND (AVG (VeryActiveMinutes), 0) AS Average_Mins_Very_Active,
+ROUND (AVG (FairlyActiveMinutes), 0) AS Average_Mins_Fairly_Active, 
+ROUND (AVG (LightlyActiveMinutes), 0) AS Average_Mins_Lightly_Active, 
+ROUND (AVG (SedentaryMinutes), 0) AS Average_Mins_Sedentary,
+FROM dailyActivity_merged
 GROUP BY Id
-ORDER BY average_mins_very_active DESC;
+ORDER BY Average_Mins_Very_Active DESC;
 
 ```
 
