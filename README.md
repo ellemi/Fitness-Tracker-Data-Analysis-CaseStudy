@@ -29,7 +29,7 @@ I downloaded the 18 .csv files to a folder on my harddrive and opened each using
 
 Using good data will help ensure quality analysis. The anacronym **ROCCC** (Reliable, Original, Comprehensive, Current, Cited)helps when determining good data. 
 
-Insights:
+#### Insights:
 - Contains data from only 30 users over 30 days
 - No information is given about users' gender and Bellabeats is positioned as a company for women
 - There is no indication that the users represented in the data are typical or that the data were vetted in any way
@@ -94,7 +94,10 @@ ORDER BY Average_Mins_Very_Active DESC;
 
 ```
 
-Insights:
+#### Insights:
+
+
+
 
 #
 
