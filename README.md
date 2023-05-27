@@ -133,6 +133,13 @@ FORMAT_TIMESTAMP ('%A',SleepDay) AS day_of_week,
 CAST (SleepDay AS TIME) AS time
 FROM sleepDay_merged;
 
+-- count days of week of user activity
+SELECT Id, 
+FORMAT_DATE('%A', DATE(sleepDay)) AS day_of_week_name, 
+COUNT(*) AS count_of_days_of_week
+FROM sleepDay_merged
+GROUP BY Id, day_of_week_name;
+
 -- total sleep minutes per user
 SELECT DISTINCT Id, 
 SUM(TotalMinutesAsleep) as minutes_asleep
