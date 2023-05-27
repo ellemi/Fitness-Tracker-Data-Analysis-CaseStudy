@@ -30,15 +30,18 @@ I downloaded the 18 .csv files to a folder on my harddrive and opened each using
 Using good data will help ensure quality analysis. The anacronym **ROCCC** (Reliable, Original, Comprehensive, Current, Cited)helps when determining good data. 
 
 #### Insights:
-- Contains data from only 30 users over 30 days
-- No information is given about users' gender and Bellabeats is positioned as a company for women
+- The data contained is from only 30 users over 30 days
 - Data originated from a third-party and was collected nearly 10 years ago
-- There is no indication that the users represented in the data are typical or that the data were vetted in any way
-- While the set contains data from only 30 users, the parameters captured are typical of fitness trackers
-- Some of the other files include activity tracked by the hour or minute, but does not include information about the user's timezone.
-- Some files include info from only a few users; Only seven users are included in the weightLogInfo_merged file, for instance.
+- No information is given about the gender, location or age of the users
+- There is no indication that the users represented in the data are typical of the company's customers
+- Some files include activity tracked by the hour or minute, but does not include information about the user's timezone
+- The number of users is inconsistent across the files; Only seven users are included in the weightLogInfo_merged file, for instance.
 
-General takeaways should be possible, but dataset is considered low-quality not recommended to use it alone for high-level analysis.
+This sample size is too small and too old to return a complete analysis. Two months of activity data recorded nearly a decade ago from only 30 users is not sufficient for a meaningfuly analysis in such a rapidly-changing field. 
+
+Additionally, without any information about the gender or location of the users, it is difficult to determine how similar these users are to thoes of the company's customers. 
+
+Therefore, these data are considered low-quality and their use is not recommended for high-level business analysis.
 
 
 ## Process
