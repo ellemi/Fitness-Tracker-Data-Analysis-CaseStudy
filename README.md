@@ -185,6 +185,14 @@ ROUND (AVG(TotalTimeInBed)/60,0) as avg_time_bed_hour,
 ROUND (AVG(TotalTimeInBed - TotalMinutesAsleep)) as avg_hours_wasted_in_bed
 FROM sleepDay_merged
 GROUP BY Id;
+
+-- to join both tables
+SELECT Id, ActivityDate, 
+FORMAT_TIMESTAMP ('%A',SleepDay) AS DayOfWeek,
+TotalSteps, VeryActiveMinutes, FairlyActiveMinutes, LightlyActiveMinutes, SedentaryMinutes, Calories,
+TotalMinutesAsleep, TotalTimeInBed
+FROM `my-project-number-1-367520.bellabeat_analysis.dailyActivity_merged`
+LEFT JOIN `my-project-number-1-367520.bellabeat_analysis.sleepDay_merged` using(Id);
 ```
 
 #### Insights:
