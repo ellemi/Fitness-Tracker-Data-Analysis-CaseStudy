@@ -7,10 +7,8 @@ High-tech company, Bellabeat, manufactures health tracking smart devices for wom
 
 Co-founders, Urška Sršen and Sando Mur started this successful company in 2013 and want to grow their company into new areas. 
 
-#### Business Tasks
-1. Explore smart device usage data to see how customers are currently using their smart devices.
-2. Recommend applications for Bellabeat customers and make suggestions to inform Bellabeat marketing strategy.
-
+#### Business Task
+Explore available smart device usage data to see how customers are currently using their smart devices and make suggestions to inform Bellabeat marketing strategy.
 
 The following uses Google's framework for making good decisions, the six phases of data analysis: ask, prepare, process, analyze, share, act.
 
