@@ -35,7 +35,7 @@ Using good data will help ensure quality analysis. The anacronym **ROCCC** (Reli
 - Some files include activity tracked by the hour or minute, but does not include information about the user's timezone
 - The number of users is inconsistent across the files; Only seven users are included in the weightLogInfo_merged file, for instance.
 
-This sample size is too small and too old to return a complete analysis. Two months of activity data recorded nearly a decade ago from only 30 users is not sufficient for a meaningfuly analysis in such a rapidly-changing field. 
+This sample size is too small and too old to return a complete analysis. One month of activity data recorded nearly a decade ago from only 30 users is not sufficient for a meaningfuly analysis in such a rapidly-changing field. 
 
 Additionally, without any information about the gender or location of the users, it is difficult to determine how similar these users are to thoes of the company's customers. 
 
