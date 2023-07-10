@@ -23,7 +23,7 @@ The anacronym, **SMART**, is a reminder to ask questions that are: Specific, Mea
 ## Prepare
 Dataset used: [Fitbit Tracking Data](https://www.kaggle.com/datasets/arashnic/fitbit), made available in the Public Domain on Kaggle, contains personal tracking data collected between 03.12.2016 - 05.12.2016 from 30 Fitbit users who responded to a survey distributed via Amazon Mechanical Turk. (MTurk is a crowdsourcing marketplace where one can connect with an on-demand human workforce)
 
-I downloaded the 18 .csv files to a folder on my harddrive and opened each using Excel for initial review of the file structures. 
+I downloaded the 18 .csv files to a folder on my harddrive and opened each using Excel for initial review of the file structures. Much of the data is contained in files showing details by the minute or hour and is also collated onto files depicting daily tracking, which is where I chose to focus my analysis.
 
 Using good data will help ensure quality analysis. The anacronym **ROCCC** (Reliable, Original, Comprehensive, Current, Cited)helps when determining good data. 
 
@@ -31,13 +31,14 @@ Using good data will help ensure quality analysis. The anacronym **ROCCC** (Reli
 - The data contained is from only 30 users over 30 days
 - Data originated from a third-party and was collected nearly 10 years ago
 - No information is given about the gender, location or age of the users
+- A weight tracking file could have been useful in an analysis, but contains data from only eight users
 - There is no indication that the users represented in the data are typical of the company's customers
 - Some files include activity tracked by the hour or minute, but does not include information about the user's timezone
 - The number of users is inconsistent across the files; Only seven users are included in the weightLogInfo_merged file, for instance.
 
 This sample size is too small and too old to return a complete analysis. One month of activity data recorded nearly a decade ago from only 30 users is not sufficient for a meaningfuly analysis in such a rapidly-changing field. 
 
-Additionally, without any information about the gender or location of the users, it is difficult to determine how similar these users are to thoes of the company's customers. 
+Additionally, without any information about the gender or location of the users, it is difficult to determine how similar these users are to those of the company's customers. 
 
 Therefore, these data are considered low-quality and their use is not recommended for high-level business analysis.
 
