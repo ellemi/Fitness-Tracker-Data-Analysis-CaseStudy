@@ -210,7 +210,7 @@ Users who slept more were less sedentary.
 Activity level strongly affected calories burned.
 
 ## Share
-
+Refer to this Tableau project [this Tableau project](https://public.tableau.com/views/BellabeatCaseStudy_16883416240690/Intro?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 
 
