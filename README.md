@@ -194,4 +194,25 @@ FROM `my-project-number-1-367520.bellabeat_analysis.dailyActivity_merged`
 LEFT JOIN `my-project-number-1-367520.bellabeat_analysis.sleepDay_merged` using(Id);
 ```
 
-#### Insights:
+## Analyze
+#### Findings:
+Users wore their activity trackers inconsistently throughout the month: 
+- Only 64% (21) of the 33 users wore it every day
+- Only 36% (12) users tracked sleep at all, with only 9% (3) tracking sleep every day
+- Only 36% (12) daily tracked calories burned
+- Only 21% (7) users tracked average daily steps greater than 10K
+
+Users slept an average of seven hours daily, taking about 40 minutes to fall asleep. 
+Sundays showed the highest average amount of sleep (7.5 hours,) but also showed the longest time taken to fall asleep, 51 minutes.    
+
+Users who slept more were less sedentary.
+
+Activity level strongly affected calories burned.
+
+## Share
+
+
+
+
+## Act
+
