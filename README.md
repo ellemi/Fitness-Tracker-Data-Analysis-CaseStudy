@@ -196,7 +196,7 @@ LEFT JOIN `my-project-number-1-367520.bellabeat_analysis.sleepDay_merged` using(
 
 ## Analyze
 #### Findings:
-Users wore their activity trackers inconsistently throughout the month: 
+Users inconsistently wore their activity trackers throughout the month: 
 - Only 64% (21) of the 33 users wore it every day
 - Only 36% (12) users tracked sleep at all, with only 9% (3) tracking sleep every day
 - Only 36% (12) daily tracked calories burned
@@ -210,9 +210,11 @@ Users who slept more were less sedentary.
 Activity level strongly affected calories burned.
 
 ## Share
-Refer to this Tableau project [this Tableau project](https://public.tableau.com/views/BellabeatCaseStudy_16883416240690/Intro?:language=en-US&:display_count=n&:origin=viz_share_link)
+[This Tableau project](https://public.tableau.com/views/BellabeatCaseStudy_16883416240690/Intro?:language=en-US&:display_count=n&:origin=viz_share_link) shows breakdowns and summaries of the data in visual form.
 
 
-
+ 
 ## Act
+#### Recommendations:
+
 
