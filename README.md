@@ -216,15 +216,17 @@ Users who moved more intensely burned more calories.
 
  
 ## Act
+Analyzing data that are more recent and consistant, from women users, will provide a more complete understanding of trends in fitness trackers. 
+
+But unlike other fitness trackers, Bellabeat's trackers are designed to allow flexibility of body positioning, making comfortable extended wear possible.
 
 
+#### Recommended Marketing Segments:
 
-#### Marketing Recommendations:
+Women who want to improve their health with greater levels of daily activity.
 
-Target people who want to improve their health with greater levels of daily activity.
+Women who want to improve their sleep habits for greater self-care and a more active life. 
 
-Users who want to improve their sleep habits for greater self-care and a more active life. 
-
-Encourage users to wear a tracker 24/7. Bellabeat trackers are not limited to wear as a wrist watch, like other fitness trackers. It's design allows flexibility of body positioning, making extended wear possible. Wearing a tracker and collecting data will provide users the greatest insights into their health.
+Women who don't want a tracker that is limited to wrist wear. Encourage users to wear the device comfortably 24/7.
 
 
