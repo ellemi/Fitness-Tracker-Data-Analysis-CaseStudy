@@ -216,14 +216,15 @@ Users who moved more intensely burned more calories.
 
  
 ## Act
+
+
+
 #### Marketing Recommendations:
 
 Target people who want to improve their health with greater levels of daily activity.
 
-Encourage users to improve sleep habits for greater self-care and activity stamina. 
+Users who want to improve their sleep habits for greater self-care and a more active life. 
 
-Encourage users to wear the tracker 24/7.
-
-Encourage users to wear a tracker 24/7. Bellabeat trackers are not limited to wear as a wrist watch, like other fitness trackers. It's design allows flexibility of body positioning, making extended wear possible. 
+Encourage users to wear a tracker 24/7. Bellabeat trackers are not limited to wear as a wrist watch, like other fitness trackers. It's design allows flexibility of body positioning, making extended wear possible. Wearing a tracker and collecting data will provide users the greatest insights into their health.
 
 
