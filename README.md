@@ -198,16 +198,17 @@ LEFT JOIN `my-project-number-1-367520.bellabeat_analysis.sleepDay_merged` using(
 #### Findings:
 Users inconsistently wore their activity trackers throughout the month: 
 - Only 64% (21) of the 33 users wore it every day
-- Only 36% (12) users tracked sleep at all, with only 9% (3) tracking sleep every day
-- Only 36% (12) daily tracked calories burned
+- Only 73% (24) users tracked sleep at all, with only 9% (3) tracking sleep every day
+- Only 36% (12) users tracked calories burned daily
 - Only 21% (7) users tracked average daily steps greater than 10K
 
 Users slept an average of seven hours daily, taking about 40 minutes to fall asleep. 
-Sundays showed the highest average amount of sleep (7.5 hours,) but also showed the longest time taken to fall asleep, 51 minutes.    
+Sundays showed the highest average duration of sleep (7.5 hours,) but also showed the longest time taken to fall asleep, 51 minutes.  
+Sunday was also the least active day overall. 
 
-Users who slept more were less sedentary.
+Users who slept more were less sedentary. 
 
-Activity level strongly affected calories burned.
+Users who moved more intensely burned more calories.
 
 ## Share
 [This Tableau project](https://public.tableau.com/views/BellabeatCaseStudy_16883416240690/Intro?:language=en-US&:display_count=n&:origin=viz_share_link) shows breakdowns and summaries of the data in visual form.
@@ -215,6 +216,14 @@ Activity level strongly affected calories burned.
 
  
 ## Act
-#### Recommendations:
+#### Marketing Recommendations:
+
+Target people who want to improve their health with greater levels of daily activity.
+
+Encourage users to improve sleep habits for greater self-care and activity stamina. 
+
+Encourage users to wear the tracker 24/7.
+
+Encourage users to wear a tracker 24/7. Bellabeat trackers are not limited to wear as a wrist watch, like other fitness trackers. It's design allows flexibility of body positioning, making extended wear possible. 
 
 
